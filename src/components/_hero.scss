@@ -1,0 +1,65 @@
+.hero {
+    background-image:url(../img/png/hero__img.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+&__subtitle{
+    @include font($color-white, 50px,  normal, $font-mont);
+    padding-top: 193px;
+
+}
+&__title{
+    @include font($color-white, 154px,  bold, $font-gara);
+}
+&__subtitle1{
+    @include font($color-white, 60px,  bold, $font-gara);
+    letter-spacing: 0.4em;
+}
+&__text{
+    @include font($color-white, 25px,  normal, $font-mont);
+    width: 580px; 
+    line-height: 1;
+    letter-spacing: 0.1em;
+}
+
+&__button{
+    @include font($color-white, 25px,  700, $font-mont);
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background-color: $color-yellow;
+    padding: 22px 32px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    margin:  130px auto 0;
+    &:hover{
+        transform: scale(1.1);
+    }
+    }
+&__svg{
+    padding-right: 18px;
+}
+
+&__scrollname{
+    @include font($color-white, 25px,  700, $font-mont);
+    text-align: center;
+    padding: 80px 0 16px;
+}
+&__scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+}

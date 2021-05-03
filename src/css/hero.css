@@ -1,0 +1,10 @@
+.hero {
+  background-image: url(../img/png/hero__img.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}

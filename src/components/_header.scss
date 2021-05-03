@@ -1,0 +1,32 @@
+.header {
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    &__row{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    &__right{
+        display: flex;
+        justify-content: flex-end;
+    }
+      &__menu{
+        display: flex;
+        justify-content: flex-end;
+    }
+&__link{
+    @include font($color-white, 25px,  bold, $font-mont);
+    margin-right: 40px;
+    text-decoration: none;
+    &:hover{
+        border-bottom: 3px solid $color-white;
+    }
+    &:nth-last-child(){
+        margin-right: -40px;
+    }
+}
+
+  }
