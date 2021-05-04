@@ -138,21 +138,25 @@ a {
   justify-content: flex-end;
 }
 
-.header__link {
+.header__list {
   color: #FFFFFF;
   font-size: 25px;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
-  margin-right: 40px;
-  text-decoration: none;
+  margin-left: 88px;
 }
 
-.header__link:hover {
-  border-bottom: 3px solid #FFFFFF;
+.header__list:first-child {
+  margin-left: 0;
 }
 
-.header__link:nth-last-child() {
-  margin-right: -40px;
+.header__list:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.header__link {
+  color: #FFFFFF;
 }
 
 .hero {

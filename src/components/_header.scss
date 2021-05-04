@@ -17,16 +17,19 @@
         display: flex;
         justify-content: flex-end;
     }
-&__link{
+&__list{
     @include font($color-white, 25px,  bold, $font-mont);
-    margin-right: 40px;
-    text-decoration: none;
+    margin-left: 88px;
+    &:first-child{
+        margin-left: 0;
+    }
     &:hover{
-        border-bottom: 3px solid $color-white;
+        font-weight: bold;
+        text-decoration: underline;
     }
-    &:nth-last-child(){
-        margin-right: -40px;
-    }
+}
+&__link{
+    color: $color-white;
 }
 
   }
