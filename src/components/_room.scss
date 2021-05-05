@@ -1,0 +1,15 @@
+.room{
+    padding-top: 83px;
+    &__description{
+        @include font($color-blue, 36px,  normal, $font-mont);
+        text-align: center;
+    }
+    &__title{
+        @include font($color-blue, 60px,  bold, $font-gara);
+    }
+    &__text{
+        @include font($color-blue, 25px,  normal, $font-mont);
+        width: 545px;
+    }
+
+}
