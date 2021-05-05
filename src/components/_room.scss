@@ -3,9 +3,11 @@
     &__description{
         @include font($color-blue, 36px,  normal, $font-mont);
         text-align: center;
+        padding-bottom: 97px;
     }
     &__title{
         @include font($color-blue, 60px,  bold, $font-gara);
+        padding:103px 0 20px;
     }
     &__text{
         @include font($color-blue, 25px,  normal, $font-mont);
