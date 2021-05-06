@@ -7,18 +7,35 @@
     }
     &__title{
         @include font($color-blue, 60px,  bold, $font-gara);
-        margin:103px 0 20px;
+        margin:201px 0 20px;
     }
     &__text{
         @include font($color-blue, 25px,  normal, $font-mont);
-        width: 545px;
-        // border-left: 15px solid red; /* Параметры линии */ 
-        // margin-left: 20px; /* Отступ слева */
-        // padding-left: 10px; /* Расстояние от линии до текста */ 
+        width: 542px;
     }
   &__line{
     border-left: 15px solid red; /* Параметры линии */ 
     margin-left: 20px; /* Отступ слева */
     padding-left: 10px; /* Расстояние от линии до текста */ 
   }
+  &__button{
+    @include font($color-white, 25px,  700, $font-mont);
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background-color: $color-yellow;
+    padding: 22px 60px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    margin-top: 30px;
+     &:hover{
+        transform: scale(1.1);
+    }
+  }
+  
+
 }

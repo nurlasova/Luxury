@@ -266,7 +266,7 @@ a {
   font-size: 60px;
   font-weight: bold;
   font-family: "Cormorant Garamond", sans-serif;
-  padding: 103px 0 20px;
+  margin: 201px 0 20px;
 }
 
 .room__text {
@@ -274,7 +274,7 @@ a {
   font-size: 25px;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
-  width: 545px;
+  width: 542px;
 }
 
 .room__line {
@@ -284,4 +284,27 @@ a {
   /* Отступ слева */
   padding-left: 10px;
   /* Расстояние от линии до текста */
+}
+
+.room__button {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background-color: #E0B973;
+  padding: 22px 60px;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  margin-top: 30px;
+}
+
+.room__button:hover {
+  transform: scale(1.1);
 }
