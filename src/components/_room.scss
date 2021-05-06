@@ -7,11 +7,18 @@
     }
     &__title{
         @include font($color-blue, 60px,  bold, $font-gara);
-        padding:103px 0 20px;
+        margin:103px 0 20px;
     }
     &__text{
         @include font($color-blue, 25px,  normal, $font-mont);
         width: 545px;
+        // border-left: 15px solid red; /* Параметры линии */ 
+        // margin-left: 20px; /* Отступ слева */
+        // padding-left: 10px; /* Расстояние от линии до текста */ 
     }
-
+  &__line{
+    border-left: 15px solid red; /* Параметры линии */ 
+    margin-left: 20px; /* Отступ слева */
+    padding-left: 10px; /* Расстояние от линии до текста */ 
+  }
 }
